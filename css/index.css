@@ -1,0 +1,181 @@
+.top {
+    width: 10%;
+    height: 10%;
+}
+
+body{
+background-image: url('https://cdn.wallpapersafari.com/2/68/zCRSn1.gif');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+header{
+    color: rgb(246, 246, 246);
+    width: 60%;
+    height: 5%;
+    text-align: center;
+    padding: 2%;
+    margin: 0 auto; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 100px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.display1e2{
+    margin: 25px auto;
+    padding: 2%;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    color: rgb(248, 248, 248);
+    font-size: larger;
+
+
+}
+
+h2{
+    margin: 15px;
+}
+
+#mensagem{
+    padding:  15px;
+    margin: 20px;
+    font-size: large;
+    width: 280px;
+}
+
+#select{
+    padding: 20px;
+    font-size: large;
+	text-align: center;
+    margin: 20px;
+    width: 290px;
+}
+
+.incremento{
+    margin: 20px;
+    display: none;
+}
+
+#numeroCesar{
+    margin: 0 auto;
+    padding: 15px;
+    width: 70px;
+    font-size: medium;
+    text-align: center;
+    display: none;
+}
+
+.radio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    text-align: left;
+    width: 180px;
+
+}
+
+#codificar, #decodificar{
+    margin: 15px;
+}
+
+#submit{
+    margin: 20px;
+    padding: 1%;
+    font-size: large;
+    height: 50px;
+    width: 280px;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.hMensagem {
+    margin: 25px;
+}
+
+.pMensagem {
+    margin: 0 15px 15px 15px;
+}
+
+.footerContainer{
+    color: rgb(246, 9, 9);
+    text-align: center;
+    margin: 15px auto;
+    padding: 0.5%;
+    width: 400px;
+}
+
+.footerContainer a{
+    text-decoration: none;
+    color: rgb(233, 8, 8);
+
+}
+
+
+@media(max-width: 806px){
+    header{
+        padding: 50px;
+    }
+
+    .display1e2{
+        padding: 50px;
+    }
+}
+
+@media(max-width: 600px){
+    header{
+        width: 400px;
+    }
+
+    .display1e2{
+        width: 400px;
+    }
+}
+
+@media(max-width: 400px){
+    header{
+        padding: 50px;
+        width: 270px;
+    }
+
+    h1{
+        font-size: xx-large;
+    }
+
+    .display1e2{
+        width: 270px;
+    }
+
+    #mensagem{
+        width: 150px;
+        margin: 15px auto;
+    }
+
+    #select{
+        width: 150px;
+        margin: 15px auto;
+        font-size: small;
+    }
+
+    #submit{
+        width: 150px;
+        margin: 15px auto;
+        font-size: medium;
+    }
+
+    .footerContainer{
+        width: 190px;
+    }
+}

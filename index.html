@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ptb-r">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\index.css">
+    <title>Criptografar</title>
+</head>
+
+<body>
+    <main>       
+        <div class="display1e2">   
+               <img class="top" src="cifra-removebg-preview.png">
+            <h2>Codifique e decodifique mensagens em Base64 ou usando a Cifra de César</h2><br>
+            <form>
+                <label for="mensagem">Digite sua Mensagem :</label><br>
+                <input type="text" name="mensagem" id="mensagem" placeholder="mensagem"><br>
+
+                <label>Selecione o tipo de Criptografia</label><br>
+
+                <select id="select">
+                    <option value=""> Selecionar </option>
+                    <option value="Base64" >Base64</option>
+                    <option value="cifraCesar">Cifra de César</option>
+                </select>
+
+
+                <label for="numeroCesar" class="incremento">Digite o incremento utilizado na cifra</label>
+                <input type="number" id="numeroCesar" ><br>
+
+
+                <label class="escolha">Escolha</label><br><br>
+
+                <div class="radio">
+                    <input type="radio" id="codificar" name="codDecod" value="codificar" checked>
+                    <label for="codificar">Codificar</label><br>
+
+                    <input type="radio" id="decodificar" name="codDecod" value="decodificar">
+                    <label for="decodificar">Decodificar</label>
+                </div>
+                
+
+                <div class="">
+                    <h2 class="hMensagem"></h2><br>
+                    <p class="pMensagem"></p>
+                </div>
+
+                <input type="submit" value="Codificar Mensagem!" id="submit">
+            </form>
+
+            <div class="footerContainer">
+                &copy; Hadonias Leite - Todos os Direitos Reservados
+            </div>
+
+        </div>
+    </main>
+    <footer>
+    </footer>
+    <script src="js\index.js"></script>
+</body>
+</html>
